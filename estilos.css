@@ -1,0 +1,43 @@
+/*------GENERAL------*/
+.navbar{
+    background-color: seashell; 
+}
+.navbar a{
+    color: slategrey !important;
+}
+.footer{
+    height: 100px;
+    width: 100px;
+    background-color: seashell;
+    color: black;
+   font-size: 50px;
+   text-align: center;
+   padding-top: 50px;
+}
+.subir{
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+    line-height: 40px;
+    color: black;
+    text-align: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 50%;
+}
+
+/*----INDEX----*/
+.jumbotron{
+    background-image: url(img/ropa1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: rgb(102, 106, 110);
+}
+.btn-light{
+    background-color: rgb(244, 225, 194) !important;
+}
+.btn-light:hover{
+    background-color: rgb(242, 198, 205) !important;
+}
